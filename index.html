@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS 19-20</title>
+    <link rel="stylesheet" href="css/zero.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <img src="img/logo.png" alt="Logo" class="header_logo">
+            <ul class="header__socialnetwork">
+                <li>
+                    <a href="#" class="header__socialnetwork-link facebook"></a>
+                </li>
+                <li>
+                    <a href="#" class="header__socialnetwork-link twitter"></a>
+                </li>
+                <li>
+                    <a href="#" class="header__socialnetwork-link rss"></a>
+                </li>
+                <li>
+                    <a href="#" class="header__socialnetwork-link linkedin"></a>
+                </li>
+                <li>
+                    <a href="#" class="header__socialnetwork-link skype"></a>
+                </li>
+            </ul>
+            <ul class="header_main-menu">
+                <li class="header__main-menu-item"><a href="#" class="header__main-menu--link header__main-menu--link-home">HOME</a></li>
+                <li class="header__main-menu-item"><a href="#" class="header__main-menu--link">FEATURES</a></li>
+                <li class="header__main-menu-item"><a href="#" class="header__main-menu--link">SERVICES</a></li>
+                <li class="header__main-menu-item"><a href="#" class="header__main-menu--link">NEWS</a></li>
+                <li class="header__main-menu-item"><a href="#" class="header__main-menu--link">SHOP</a></li>
+                <form class="header_form" action="index.html" method="post">
+                    <input type="text" name="" value="" placeholder="Search...">
+                    <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+                    <input type="submit" name="" value="">
+                </form>
+            </ul>
+            <div id="slider">
+                <div id="mask">
+                    <ul id="image_container">
+                        <li><img src="img/build_your_business.png"></li>
+                        <li><img src="img/build_your_business1.png"></li>
+                        <li><img src="img/build_your_business2.png"></li>
+                    </ul>
+                </div>
+                <ul id="dots">
+                    <li class="button1" onClick="changeImage(1)"></li>
+                    <li class="button2" onClick="changeImage(2)"></li>
+                    <li class="button3" onClick="changeImage(3)"></li>
+                </ul>
+            </div>
+        </header>
+        <div class="main__articles">
+            <div class="main__articles-all">
+                <p class="main__articles-all--number">01</p>
+                <img src="img/settings.png" alt="settings" class="main__articles--first-icon">
+                <div class="main__articles-text">
+                    <h1 class="main__articles-text--heading">Power Inside</h1>
+                    <p class="main__articles-text--paragraph">Cum socii natoque penatibus et magnis dis parturientmontesmus. Pro vel nibh et elit mollis commodo et nec augueique</p>
+                    <a href="#" class="main__articles-text--link">Read More&emsp;<img src="img/arrow.png" alt=""></a>
+                </div>
+            </div>
+            <div class="main__articles-all">
+                <p class="main__articles-all--number">02</p>
+                <img src="img/params.png" alt="settings" class="main__articles--first-icon">
+                <div class="main__articles-text">
+                    <h1 class="main__articles-text--heading">Power Inside</h1>
+                    <p class="main__articles-text--paragraph">Cum socii natoque penatibus et magnis dis parturientmontesmus. Pro vel nibh et elit mollis commodo et nec augueique</p>
+                    <a href="#" class="main__articles-text--link">Read More&emsp;<img src="img/arrow.png" alt=""></a>
+                </div>
+            </div>
+            <div class="main__articles-all">
+                <p class="main__articles-all--number">03</p>
+                <img src="img/truck.png" alt="settings" class="main__articles--first-icon">
+                <div class="main__articles-text">
+                    <h1 class="main__articles-text--heading">Power Inside</h1>
+                    <p class="main__articles-text--paragraph">Cum socii natoque penatibus et magnis dis parturientmontesmus. Pro vel nibh et elit mollis commodo et nec augueique</p>
+                    <a href="#" class="main__articles-text--link">Read More&emsp;<img src="img/arrow.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="main-services">
+            <div class="main-services__subblock">
+                <h1 class="main-services__subblock--heading">Our Services</h1>
+                <div class="main-services__subblock--all">
+                    <a href="#" class="img-hover"><img src="img/shedule.png" alt="" class="main-services__subblock--all-img"><a href="#" class="plus"><img src="img/cross.png" alt=""></a></a>
+                    <a href="#" class="main-services__subblock--all-link link-hover">Schedule Services</a>
+                </div>
+                <div class="main-services__subblock--all">
+                    <a href="#" class="img-hover"><img src="img/meintence.png" alt="" class="main-services__subblock--all-img"><a href="#" class="plus"><img src="img/cross.png" alt=""></a></a>
+                    <a href="#" class="main-services__subblock--all-link link-hover">Preventive Maintence</a>
+                </div>
+                <div class="main-services__subblock--all">
+                    <a href="#" class="img-hover"><img src="img/tires.png" alt="" class="main-services__subblock--all-img"><a href="#" class="plus"><img src="img/cross.png" alt=""></a></a>
+                    <a href="#" class="main-services__subblock--all-link link-hover">Tire & Wheel Service</a>
+                </div>
+                <div class="main-services__subblock--all">
+                    <a href="#" class="img-hover"><img src="img/repair.png" alt="" class="main-services__subblock--all-img"><a href="#" class="plus"><img src="img/cross.png" alt=""></a></a>
+                    <a href="#" class="main-services__subblock--all-link link-hover">Repair Services</a>
+                </div>
+            </div>
+        </div>
+        <div class="news">
+            <div class="news__latest">
+                <h1 class="news__latest--heading">Latest News</h1>
+                <div class="news__latest__first-block">
+                  <img src="img/first-news.image.png" alt="" class="news__latest--image">
+                  <p class="news__latest--month">Jan</p>
+                  <p class="news__latest--date">23</p>
+                  <div class="news__latest--text">
+                    <a href="#" class="news__latest--heading-article">Advanced Machinery Helps Improve Quality</a>
+                    <p class="news__latest--comments">by&nbsp;<a href="#" class="news__latest--comments-link">cmsmasters</a>&emsp;Comments(<a href="#" class="news__latest--comments-link">6</a>)</p>
+                    <p class="news__latest--comments-text">Cum sociis penatibus et magnis dis parturient ontesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur samomo enim ipsam voluptatem.</p>
+                  </div>
+                </div>
+                <div class="news__latest__second-block">
+                  <img src="img/second-news.image.png" alt="" class="news__latest--image">
+                  <p class="news__latest--month second-month">Jan</p>
+                  <p class="news__latest--date second-date">21</p>
+                  <div class="news__latest--text">
+                    <a href="#" class="news__latest--heading-article">Powerful Techniques for Advanced Service</a>
+                    <p class="news__latest--comments">by&nbsp;<a href="#" class="news__latest--comments-link">cmsmasters</a>&emsp;Comments(<a href="#" class="news__latest--comments-link">3</a>)</p>
+                    <p class="news__latest--comments-text">Cum sociis penatibus et magnis dis parturient ontesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur samomo enim ipsam voluptatem.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="news__banners">
+              <h1 class="news__latest--heading">Banners Place</h1>
+            <a href="#" class="news__banners--link">&ndash;</a>
+            <p class="news__banners--text">ACCORDION PANEL 1</p>
+            <p class="news__latest--comments-text news__banners-comments">Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur</p>
+            <a href="#" class="news__banners--link-close">+</a>
+            <p class="news__banners--text-close">ACCORDION PANEL 2</p>
+            <a href="#" class="news__banners--link-close">+</a>
+            <p class="news__banners--text-close">ACCORDION PANEL 3</p>
+            <a href="#" class="news__banners--link-close">+</a>
+            <p class="news__banners--text-close">ACCORDION PANEL 4</p>
+            </div>
+        </div>
+        <div class="wheels">
+          <img src="img/wheels1.png" class="wheels__img wheels__img-first" alt="">
+          <img src="img/wheels2.png" class="wheels__img" alt="">
+          <img src="img/wheels3.png" class="wheels__img" alt="">
+          <img src="img/wheels4.png" class="wheels__img" alt="">
+          <img src="img/wheels5.png" class="wheels__img" alt="">
+          <img src="img/wheels6.png" class="wheels__img wheels__img-last" alt="">
+        </div>
+        <footer class="footer">
+          <div class="main__links">
+          <div class="main__links-first">
+            <h1 class="main__links--heading">SOCIALS</h1>
+            <a href="#" class="main__links--link">Facebook</a>
+            <a href="#" class="main__links--link">Flickr</a>
+            <a href="#" class="main__links--link">Twitter</a>
+            <a href="#" class="main__links--link main__links--link-last">Vimeo</a>
+          </div>
+          <div class="main__links-first">
+            <h1 class="main__links--heading">LINKS</h1>
+            <a href="#" class="main__links--link">How to Write a Blog</a>
+            <a href="#" class="main__links--link">Create a Blog in 4 Steps</a>
+            <a href="#" class="main__links--link">15 Tipsg to Increase Traffic</a>
+            <a href="#" class="main__links--link main__links--link-last">20 Blog Post Ideas</a>
+          </div>
+          <div class="main__links-first">
+            <h1 class="main__links--heading">BLOGROLL</h1>
+            <a href="#" class="main__links--link">Blogs Blog</a>
+            <a href="#" class="main__links--link">Roll Up Roll Up</a>
+            <a href="#" class="main__links--link">Blog Free</a>
+            <a href="#" class="main__links--link main__links--link-last">Wordpress Blog</a>
+          </div>
+          <div class="main__links-first">
+            <h1 class="main__links--heading">ABOUT US</h1>
+            <a href="#" class="main__links--link">Agriculture</a>
+            <a href="#" class="main__links--link">Harvest</a>
+            <a href="#" class="main__links--link">Company News</a>
+            <a href="#" class="main__links--link main__links--link-last">Investor relations</a>
+          </div>
+          </div>
+          <div class="footer-contacts">
+          <div class="footer-contacts-main">
+          <img src="img/location.png" alt="" class="footer-contacts--img">
+          <p class="footer-contacts--text">BuildHomeLtd.&nbsp;Street Name 123&emsp;23 45 Cityname</p>
+          <img src="img/mobile.png" alt="" class="footer-contacts--img margin-footer-img">
+          <p class="footer-contacts--text">+123 900 123 456</p>
+          <img src="img/mail.png" alt="" class="footer-contacts--img margin-footer-img">
+          <p class="footer-contacts--text">info@buildhome.web</p>
+          </div>
+          </div>
+        </footer>
+    </div>
+    <script src="js/slider.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
