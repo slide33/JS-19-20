@@ -3,8 +3,9 @@ $first-main-color: rgb(42, 45, 50);
 $main-font: 'Ubuntu Condensed';
 $main-font2: 'UbuntuRegular';
 /////////////////////////////Header/////////////////////////////
+
 .header {
-    width: 1160px;
+    width: 85.99%;
     margin: 0 auto;
 }
 
@@ -98,7 +99,7 @@ $main-font2: 'UbuntuRegular';
     line-height: 56px;
     font-family: $main-font;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: white;
     border-right: 1px solid black;
 }
@@ -123,6 +124,7 @@ input[type=text] {
     background-color: rgba(255, 255, 255, 0.05);
     border: 1px solid rgb(24, 26, 29);
     padding-left: 8px;
+    color: white;
 }
 
 input[type=submit] {
@@ -142,6 +144,7 @@ input[type=submit] {
 }
 /////////////////////////////End header/////////////////////////////
 /////////////////////////////Slider/////////////////////////////
+
 #slider {
     width: 1160px;
     height: 471px;
@@ -207,7 +210,7 @@ input[type=submit] {
     position: relative;
     width: 244px;
     height: 55px;
-    margin: 300px 0px 0px 40px;
+    margin: 300px 0 0 40px;
     cursor: pointer;
 }
 
@@ -221,7 +224,7 @@ input[type=submit] {
 
 #dots li {
     float: left;
-    margin: 0px 2px;
+    margin: 0 2px;
     width: 15px;
     height: 15px;
     background: url('../img/empty-dot.png');
@@ -240,14 +243,15 @@ input[type=submit] {
 }
 /////////////////////////////End slider/////////////////////////////
 /////////////////////////////Main articles/////////////////////////////
+
 .main__articles {
-    width: 1160px;
+    width: 85.99%;
     margin: 70px auto 90px;
 }
 
 .main__articles-all {
     display: inline-block;
-    width: 33%;
+    width: 32%;
 }
 
 .main__articles-all--number {
@@ -283,7 +287,7 @@ input[type=submit] {
     height: 53px;
     color: rgb(138, 138, 138);
     font-family: Arial;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 400;
     line-height: 20px;
     margin: 35px 0 35px 120px;
@@ -294,7 +298,7 @@ input[type=submit] {
     height: 11px;
     color: rgb(42, 43, 46);
     font-family: $main-font2;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 900;
     line-height: 20px;
     text-decoration: none;
@@ -306,19 +310,21 @@ input[type=submit] {
 }
 /////////////////////////////End main articles/////////////////////////////
 /////////////////////////////Our services/////////////////////////////
+
 .main-services {
     width: 100%;
     background-color: $first-main-color;
 }
 
 .main-services__subblock {
-    width: 1160px;
+    width: 85.99%;
     margin: 0 auto;
 }
 
 .main-services__subblock--all {
+    width: 22.41%;
+    margin-right: 2.24%;
     display: inline-block;
-    margin-right: 26px;
     position: relative;
 }
 
@@ -345,7 +351,7 @@ input[type=submit] {
     height: 16px;
     color: white;
     font-family: $main-font2;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 20px;
     text-align: center;
@@ -370,7 +376,7 @@ input[type=submit] {
 }
 
 .img-hover:hover + .plus {
-  opacity: 1;
+    opacity: 1;
 }
 
 .img-hover:hover + .link-hover {
@@ -384,7 +390,7 @@ input[type=submit] {
 /////////////////////////////Latest news/////////////////////////////
 
 .news {
-    width: 1160px;
+    width: 85.99%;
     margin: 0 auto;
 }
 
@@ -392,6 +398,7 @@ input[type=submit] {
     float: left;
     width: 50%;
     position: relative;
+    margin-bottom: 180px;
 }
 
 .news__latest--heading {
@@ -404,13 +411,13 @@ input[type=submit] {
 }
 
 .news__latest__first-block {
-    height: 150;
+    height: 150px;
     width: 100%;
 }
 
 .news__latest--image {
-    width: 150px;
-    height: 150px;
+    width: 25.86%;
+    height: 100%;
 }
 
 .news__latest--month {
@@ -423,7 +430,7 @@ input[type=submit] {
     background-color: rgb(36, 140, 236);
     color: white;
     font-family: $main-font2;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 900;
     line-height: 40px;
 }
@@ -438,7 +445,7 @@ input[type=submit] {
     background-color: rgb(244, 182, 13);
     color: white;
     font-family: $main-font2;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 900;
     line-height: 40px;
 }
@@ -450,11 +457,11 @@ input[type=submit] {
 }
 
 .news__latest--heading-article {
-    margin-left: 40px;
+    margin-left: 9.4%;
     display: inline-block;
     color: rgb(42, 45, 50);
     font-family: $main-font2;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 900;
     line-height: 20px;
     vertical-align: top;
@@ -466,11 +473,11 @@ input[type=submit] {
 }
 
 .news__latest--comments {
-    margin: 15px 0 30px 40px;
-    display: inline-block;
+    margin: 3.53% 0 7.06% 9.4%;
+    display: block;
     color: rgb(138, 138, 138);
     font-family: Arial;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 400;
     line-height: 20px;
 }
@@ -478,19 +485,19 @@ input[type=submit] {
 .news__latest--comments-link {
     display: inline-block;
     color: rgb(1, 135, 244);
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 400;
     line-height: 20px;
     text-decoration: none;
 }
 
 .news__latest--comments-text {
-    margin-left: 40px;
-    width: 350px;
+    margin-left: 9.4%;
+    width: 82.3%;
     height: 73px;
     color: rgb(138, 138, 138);
     font-family: Arial;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 400;
     line-height: 20px;
 }
@@ -513,17 +520,16 @@ input[type=submit] {
     float: right;
     width: 50%;
     position: relative;
-    margin-bottom: 180px;
 }
 
 .news__banners--link {
     display: inline-block;
     text-decoration: none;
-    text-align: center;
     width: 37px;
     height: 39px;
     line-height: 39px;
     background-color: rgb(244, 182, 13);
+    background-position: 0px 0px!important;
 }
 
 .news__banners--text {
@@ -531,23 +537,25 @@ input[type=submit] {
     text-indent: 12px;
     margin-left: -3px;
     vertical-align: top;
-    width: 90.61%;
+    width: 92.61%;
     height: 39px;
-    color: white;
+    color: black;
     font-family: $main-font2;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 500;
     line-height: 39px;
-    background-color: rgb(244, 182, 13);
+    border: 1px solid rgb(232, 232, 232);
 }
 
 .news__banners-comments {
-    margin: 30px 0 45px 37px;
-    width: 515px;
+    margin: 5.175% 0 7.76% 6.38%;
+    width: 88.795%;
     height: 100px;
 }
 
 .news__banners--link-close {
+    background-image: url('../img/plus-minus.png');
+    background-position: 0px 39px;
     display: inline-block;
     text-decoration: none;
     text-align: center;
@@ -567,24 +575,35 @@ input[type=submit] {
     height: 39px;
     color: black;
     font-family: $main-font2;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 500;
     line-height: 39px;
     border: 1px solid rgb(232, 232, 232);
-}/////////////////////////////End latest news/////////////////////////////
+}
+
+.news__banners--accordion {
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+
+/////////////////////////////End latest news/////////////////////////////
 /////////////////////////////Partners/////////////////////////////
+
 .wheels {
     margin: 0 auto 100px;
-    width: 1160px;
+    width: 85.99%;
     clear: both;
 }
 
 .wheels__img-first {
-    margin-left: 40px;
+    margin-left: 3.4%;
 }
 
 .wheels__img {
-    margin-right: 40px;
+    margin-right: 3.4%;
+    width: 12.3%;
 }
 
 .wheels__img-last {
@@ -592,6 +611,7 @@ input[type=submit] {
 }
 /////////////////////////////End partners/////////////////////////////
 /////////////////////////////Footer/////////////////////////////
+
 .footer {
     width: 100%;
     background-color: $first-main-color;
@@ -599,13 +619,13 @@ input[type=submit] {
 
 .main__links {
     margin: 0 auto;
-    width: 1160px;
+    width: 85.99%;
 }
 
 .main__links-first {
     width: 22%;
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 2.58%;
     margin-bottom: 84px;
 }
 
@@ -613,7 +633,7 @@ input[type=submit] {
     padding: 60px 0 45px;
     color: white;
     font-family: $main-font2;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 900;
     line-height: 24px;
 }
@@ -623,7 +643,7 @@ input[type=submit] {
     height: 40px;
     color: rgba(255, 252, 255, 0.3);
     font-family: Arial;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 400;
     line-height: 36px;
     text-decoration: none;
@@ -645,7 +665,7 @@ input[type=submit] {
 
 .footer-contacts-main {
     margin: 0 auto;
-    width: 1160px;
+    width: 85.99%;
 }
 
 .footer-contacts--img {
@@ -657,7 +677,7 @@ input[type=submit] {
     display: inline-block;
     color: rgba(255, 252, 255, 0.2);
     font-family: Arial;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     height: 64px;
     line-height: 64px;
@@ -665,6 +685,6 @@ input[type=submit] {
 }
 
 .margin-footer-img {
-  margin-left: 40px;
+    margin-left: 40px;
 }
 /////////////////////////////End footer/////////////////////////////
